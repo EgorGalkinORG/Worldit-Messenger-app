@@ -1,0 +1,25 @@
+import { StyleSheet } from "react-native";
+import { COLORS } from "./colors";
+import { FONTS } from "./fonts";
+
+export const constStyles = StyleSheet.create({
+	urlIcon: {
+		width: 20,
+		height: 20,
+	},
+	tab: {
+		gap: 6,
+		alignItems: "center",
+		justifyContent: "center",
+		paddingTop: 8,
+		paddingLeft: 8,
+		paddingRight: 8,
+		paddingBottom: 4,
+	},
+	tabText: {
+		fontSize: 14,
+		fontWeight: 500,
+		fontFamily: FONTS.medium,
+		color: COLORS.black,
+	},
+});
